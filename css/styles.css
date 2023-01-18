@@ -577,11 +577,13 @@ p {
   transition: transform 250ms linear;
   padding: 40px;
 }
-.modal-tittle {
+.modal-title {
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
   text-align: center;
+  color: var(--title-color);
+  margin-bottom: 12px;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
