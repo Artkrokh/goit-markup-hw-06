@@ -451,13 +451,15 @@
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form action="" class="modal-form">
+          <label for="">
           <input
             type="text"
             class="modal-input"
             name="user-name"
             placeholder="Ім'я"
             required
-          />
+          /></label>
+          <label for="">
           <input
             type="tel"
             class="modal-input"
@@ -465,20 +467,22 @@
             placeholder="Телефон"
             required
             pattern="[\+380]\d{2}\d{3}\d{3}\d{2}\d{2}"
-          />
+          /></label>
+          <label for="">
           <input
             type="email"
             class="modal-input"
             name="user-email"
             placeholder="Пошта"
             required
-          />
+          /></label>
+          <label for="">
           <input
             type="text"
             class="modal-input"
             name=""
             placeholder="Введіть текст"
-          />
+          /></label>
           <button type="submit">Відправити</button>
         </form>
       </div>
