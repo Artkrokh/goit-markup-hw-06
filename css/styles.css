@@ -668,6 +668,9 @@ p {
   display: inline-block;
   margin-bottom: 4px;
 }
+.checkbox {
+  
+}
 .input-message:hover,
 .input-message:focus {
   border-color: var(--accent-color);
