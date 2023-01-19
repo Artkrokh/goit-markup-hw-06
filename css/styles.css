@@ -607,6 +607,8 @@ p {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--text-color);
+  border-radius: 2px;
+  border-color: var(--accent-color);
 }
 .contract-text {
   color: var(--accent-color);
@@ -667,9 +669,6 @@ p {
   color: var(--text-color);
   display: inline-block;
   margin-bottom: 4px;
-}
-.checkbox {
-  
 }
 .input-message:hover,
 .input-message:focus {
