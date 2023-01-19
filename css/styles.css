@@ -90,13 +90,12 @@ p {
 .nav-text.current {
   color: var(--accent-color);
   position: relative;
-  overflow: hidden;
 }
 .current::after {
   position: absolute;
   display: block;
   content: "";
-  top: 76px;
+  bottom: -1;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -110,7 +109,7 @@ p {
   text-decoration: none;
   text-align: center;
   color: var(--title-color);
-  transform: color 250ms;
+  transition: color 250ms;
 }
 .contacts {
   margin-left: auto;
@@ -132,7 +131,7 @@ p {
   align-items: center;
   gap: 10px;
   justify-content: center;
-  transform: color 250ms;
+  transition: color 250ms;
 }
 .contacts-icon {
   width: 16px;
@@ -319,11 +318,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: background-color 250ms;
+  transition: background-color 250ms;
 }
 .personal-soc-icon {
   fill: var(--icon-color);
-  transform: fill 250ms;
+  transition: fill 250ms;
 }
 .personal-soc-link:hover,
 .personal-soc-link:focus {
@@ -361,7 +360,7 @@ p {
   cursor: pointer;
   border-radius: 4px;
   background: var(--background-button);
-  transform: background 250ms;
+  transition: background 250ms;
 }
 .project-cart {
   padding: 20px 24px;
@@ -458,9 +457,11 @@ p {
   align-items: center;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
+  transition: border 250ms;
 }
 .customers-icon {
   fill: var(--icon-color);
+  transition: fill 250ms;
 }
 .footer {
   padding: 60px 0;
@@ -478,6 +479,7 @@ p {
   font-size: 14px;
   line-height: 1.17;
   color: var(--addres-text);
+  transition: color 250ms;
 }
 .contacts-text {
   text-decoration: none;
@@ -527,6 +529,7 @@ p {
 .social-list {
   display: flex;
   gap: 10px;
+  transition: color 250ms;
 }
 .social-item {
   width: 44px;
@@ -540,6 +543,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms;
 }
 .footer-social-icon {
   fill: var(--hero-color);
@@ -634,7 +638,8 @@ p {
   border-radius: 50%;
   background-color: transparent;
   display: flex;
-  align-items: center
+  align-items: center;
+  transition: fill 250ms;
 }
 .close-button:hover,
 .close-button:focus {
