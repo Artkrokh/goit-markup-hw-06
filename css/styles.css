@@ -609,6 +609,9 @@ p {
   display: inline-block;
   margin-bottom: 4px;
 }
+.modal-icon {
+  position: ;
+}
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
