@@ -110,6 +110,7 @@ p {
   text-decoration: none;
   text-align: center;
   color: var(--title-color);
+  transform: color 250ms;
 }
 .contacts {
   margin-left: auto;
@@ -131,11 +132,13 @@ p {
   align-items: center;
   gap: 10px;
   justify-content: center;
+  transform: color 250ms;
 }
 .contacts-icon {
   width: 16px;
   height: 16px;
   fill: var(--text-color);
+  transform: fill 250ms;
 }
 .hero {
   padding: 200px 0;
@@ -316,9 +319,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: background-color 250ms;
 }
 .personal-soc-icon {
   fill: var(--icon-color);
+  transform: fill 250ms;
 }
 .personal-soc-link:hover,
 .personal-soc-link:focus {
@@ -356,6 +361,7 @@ p {
   cursor: pointer;
   border-radius: 4px;
   background: var(--background-button);
+  transform: background 250ms;
 }
 .project-cart {
   padding: 20px 24px;
