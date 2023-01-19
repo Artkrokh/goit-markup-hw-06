@@ -658,6 +658,7 @@ p {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
+.
 .close-button {
   position: absolute;
   right: 8px;
