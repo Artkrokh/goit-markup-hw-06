@@ -600,6 +600,9 @@ p {
 .modal-field {
   margin-bottom: 10px;
 }
+.modal-field:last-child {
+  margin-bottom: 0;
+}
 .modal-checkbox {
   margin-top: 20px;
 }
@@ -665,6 +668,8 @@ p {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms;
+}
+.check-icon {
 }
 .modal-input::placeholder {
   font-weight: 400;
