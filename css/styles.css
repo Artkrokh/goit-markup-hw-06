@@ -607,6 +607,7 @@ p {
 .modal-checkbox {
   margin-top: 20px;
 }
+
 .conditions-text {
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -614,6 +615,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  cursor: pointer;
 }
 .conditions-text span {
   width: 16px;
@@ -623,6 +625,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
 }
 .contract-text {
   color: var(--accent-color);
@@ -662,6 +665,11 @@ p {
   cursor: pointer;
   transition: border-color 250ms;
   resize: none;
+}
+.input-checkbox:checked +.conditions-text span {
+  background-color: var(--accent-color);
+  border: none;
+  fill: var(--hero-color);
 }
 .input-wrap {
   position: relative;
