@@ -368,7 +368,7 @@ p {
 }
 .button-filtr:hover,
 .button-filtr:focus {
-  
+  background-color: #188CE8;
 }
 .project-cart {
   padding: 20px 24px;
