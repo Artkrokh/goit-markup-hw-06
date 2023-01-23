@@ -783,6 +783,13 @@ p {
   display: inline-block;
   margin-bottom: 4px;
 }
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
 .input-message:hover,
 .input-message:focus {
   border-color: var(--accent-color);
